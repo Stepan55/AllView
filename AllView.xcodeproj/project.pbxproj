@@ -7,15 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FD770E992982DAA2009414F2 /* emojiFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD770E982982DAA2009414F2 /* emojiFile.swift */; };
 		FDFF2AC62971B35300F44B6B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDFF2AC52971B35300F44B6B /* AppDelegate.swift */; };
 		FDFF2AC82971B35300F44B6B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDFF2AC72971B35300F44B6B /* SceneDelegate.swift */; };
 		FDFF2ACA2971B35300F44B6B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDFF2AC92971B35300F44B6B /* ViewController.swift */; };
 		FDFF2ACD2971B35300F44B6B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDFF2ACB2971B35300F44B6B /* Main.storyboard */; };
 		FDFF2ACF2971B36500F44B6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDFF2ACE2971B36500F44B6B /* Assets.xcassets */; };
 		FDFF2AD22971B36500F44B6B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDFF2AD02971B36500F44B6B /* LaunchScreen.storyboard */; };
+		FDFF2ADB2974BFD400F44B6B /* ListTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDFF2ADA2974BFD400F44B6B /* ListTable.swift */; };
+		FDFF2ADE297B55A800F44B6B /* EmojiCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDFF2ADD297B55A700F44B6B /* EmojiCellTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FD770E982982DAA2009414F2 /* emojiFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = emojiFile.swift; sourceTree = "<group>"; };
 		FDFF2AC22971B35300F44B6B /* AllView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AllView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDFF2AC52971B35300F44B6B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FDFF2AC72971B35300F44B6B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +28,8 @@
 		FDFF2ACE2971B36500F44B6B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FDFF2AD12971B36500F44B6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FDFF2AD32971B36500F44B6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDFF2ADA2974BFD400F44B6B /* ListTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTable.swift; sourceTree = "<group>"; };
+		FDFF2ADD297B55A700F44B6B /* EmojiCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiCellTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +65,10 @@
 				FDFF2AC52971B35300F44B6B /* AppDelegate.swift */,
 				FDFF2AC72971B35300F44B6B /* SceneDelegate.swift */,
 				FDFF2AC92971B35300F44B6B /* ViewController.swift */,
+				FDFF2ADA2974BFD400F44B6B /* ListTable.swift */,
+				FD770E982982DAA2009414F2 /* emojiFile.swift */,
 				FDFF2ACB2971B35300F44B6B /* Main.storyboard */,
+				FDFF2ADD297B55A700F44B6B /* EmojiCellTableViewCell.swift */,
 				FDFF2ACE2971B36500F44B6B /* Assets.xcassets */,
 				FDFF2AD02971B36500F44B6B /* LaunchScreen.storyboard */,
 				FDFF2AD32971B36500F44B6B /* Info.plist */,
@@ -139,7 +148,10 @@
 			files = (
 				FDFF2ACA2971B35300F44B6B /* ViewController.swift in Sources */,
 				FDFF2AC62971B35300F44B6B /* AppDelegate.swift in Sources */,
+				FD770E992982DAA2009414F2 /* emojiFile.swift in Sources */,
+				FDFF2ADB2974BFD400F44B6B /* ListTable.swift in Sources */,
 				FDFF2AC82971B35300F44B6B /* SceneDelegate.swift in Sources */,
+				FDFF2ADE297B55A800F44B6B /* EmojiCellTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
